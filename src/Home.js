@@ -21,11 +21,28 @@ const Home = () => {
       author: "Princess",
       id: "3",
     },
+    {
+      title: "Web new one",
+      body: "lorem ipsum",
+      author: "Mario",
+      id: "4",
+    },
+    {
+      title: "Last tips",
+      body: "lorem ipsum",
+      author: "Princess",
+      id: "5",
+    },
   ]);
+
+  const handleClick = (id) => {
+    const newBlogs = blogs.filter((blog) => blog.id !== id);
+    setBlogs(newBlogs);
+  };
 
   return (
     <div className="home">
-      <Bloglist blogs={blogs} title="All Blogs" />
+      <Bloglist blogs={blogs} title="All Blogs" handleClick={handleClick} />
     </div>
   );
 };
