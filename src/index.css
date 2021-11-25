@@ -53,3 +53,6 @@
   color: #669bbc;
   margin-bottom: 8px;
 }
+.blog-preview a {
+  text-decoration: none;
+}
