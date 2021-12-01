@@ -30,9 +30,8 @@ const Create = () => {
           <option value="Yoshi">Yoshi</option>
           <option value="Princess">Princess</option>
         </select>
+        <button>Add</button>
       </form>
-      <p>{title}</p>
-      <p>{body}</p>
     </div>
   );
 };
