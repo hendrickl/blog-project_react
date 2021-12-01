@@ -1,3 +1,8 @@
+# Blog-project ![Blog-project icon](./blog-icon.png)
+
+Blog-project is a simple **react app**<br>
+I create an application wich can manipulate data by using the **fetch API** and **json-server**, navigate into differents routes by using the new functionalities from **react-router-dom**, and also create **custom hook** in order to have a more scalable code.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
